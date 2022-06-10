@@ -1,9 +1,11 @@
 .home {
   display: flex;
-
+  .Sidebar{
+    position: fixed;
+  }
   .homeContainer {
     flex: 6;
-
+  
     .widgets,
     .charts {
       display: flex;
@@ -12,7 +14,8 @@
     }
 
     .charts {
-      padding: 5px 20px;
+      height: fit-content;
+
     }
 
     .listContainer {
