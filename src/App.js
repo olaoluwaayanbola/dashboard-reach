@@ -3,13 +3,12 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './Pages/home/Home';
 import List from './Pages/List/List';
 import Login from './Pages/Login/Login';
-import New from './Pages/new/New'
+import New from './Pages/New/New'
 import Single from './Pages/single copy/Single';
-import { productInputs, userInputs } from "./Pages/new/formSource"
+import { productInputs, userInputs } from "./Pages/New/formSource"
 import "./Pages/style/dark.scss";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
-
 function App() {
   const { darkMode } = useContext(DarkModeContext);
   return (
