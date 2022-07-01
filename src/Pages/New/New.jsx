@@ -1,4 +1,4 @@
-import "./new.scss";
+import "./New.scss";
 import Sidebar from "../../Components/sidebar copy/Sidebar";
 import Navbar from "../../Components/navbar copy/Navbar";
 import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
